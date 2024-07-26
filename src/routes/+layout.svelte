@@ -22,7 +22,9 @@
 	}
 
 </script>
-
+<svelte:head>
+	<title> 4Elem | Battle of Elements </title>
+</svelte:head>
 <Drawer>
 	<div class="instructions p-8">
 		<h1 class="h1 text-primary-500"> INSTRUCTIONS</h1>
