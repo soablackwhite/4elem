@@ -27,7 +27,7 @@
 	<div class="instructions p-8">
 		<h1 class="h1 text-primary-500"> INSTRUCTIONS</h1>
 		<h2 class="h2 my-4"> Objective</h2>
-		<p>Skully will hit you with a random spell from four elements. Guess the element of his card, show a hand sign to the camera, and when ready, press the attack button to start the duel.</p>
+		<p>Skully will hit you with a random spell picked from four elements. Guess the element of his card, show a hand sign to the camera, and when ready, press the attack button to start the duel.</p>
 		<hr class="!border-t-2" />
 		<h2 class="h2 my-4"> Table</h2>
 		<div class="row">
@@ -41,9 +41,12 @@
 			</div>
 		</div>
 		every other pairing results in a <span class="text-warning-500">draw</span>.
-		<br><br>
-		<i>hint1: use the information you have about the spells in Skully's hand to your advantage.</i>
-		<i>hint2: if Skully rans out of spells, he loses.</i>
+		<h2 class="h2 my-4"> Hints </h2>
+		<ul>
+			<li><i>use the information you have about the spells in Skully's hand to your advantage.</i></li> 
+			<li><i>hint2: if Skully rans out of spells, he loses.</i></li>
+		</ul>
+		
 
 	</div>
 </Drawer>
@@ -56,6 +59,10 @@
 <style>
 	*{
         font-family: 'Pixelify Sans', sans-serif;
+	}
+	ul{
+		list-style-type:square;
+		padding-left: 30px;
 	}
 	.qmark{
 		width: 40px;

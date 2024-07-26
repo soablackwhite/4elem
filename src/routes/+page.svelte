@@ -226,7 +226,7 @@
 
 <!------------------------------------ UI BANNER CARD ---------------------------------------->
 <div class="banner">
-    <div class="block card card-hover player-container variant-ghost-black"> 
+    <div class="block card card-hover player-container variant-ghost-primary"> 
         <div class="player-banner inline-flex flex-row">
             <div class="p-2"> <h4 class="h5"> <strong> {(playerName.length > 0) ? playerName : "player"} </strong></h4> </div>
             <div class="hearts">
@@ -341,13 +341,14 @@
         overflow: hidden
     }
     .player-banner{
+        text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.748);
         @apply text-success-500;
         width: 100%;
         align-items: center;
         align-content: center;
         justify-content: center;
-        background-color: rgba(255, 255, 255, 0.836);
-        color: black;
+        /* background-color: rgba(255, 255, 255, 0.836); */
+        color: white;
     }
     .card{
         border: 1px solid rgba(255, 255, 255, 0.333);
@@ -411,7 +412,7 @@
     .history{
         right: 0px;
         width: 170px;
-        max-height: 180px;
+        max-height: 185px;
         overflow-y: scroll;
         background-color: rgba(255, 255, 255, 0.07);
         font-size: small;
