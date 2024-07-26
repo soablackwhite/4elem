@@ -20,9 +20,13 @@ export default {
 						enhancements: true,
 					},
 					{
-						name: 'gold-nouveau',
+						name: 'crimson',
 						enhancements: true,
 					},
+					{
+						name: 'hamlindigo',
+						enhancements: true,
+					}
 				],
 				custom: [
 					fourtheme,
